@@ -11,11 +11,13 @@ Repositories**, then **Check for Updates**, apply, and restart:
 https://raw.githubusercontent.com/mburge/spatially-robust-lrgb-updates/main/
 ```
 
-Current version: **0.1.1**. The dialog now offers the original D65 Y reference
+Current version: **0.1.2**. The dialog now offers the original D65 Y reference
 and an experimental filter/QE projection read from the selected views' RGB
 SPCC and L SPFC histories. The latter requires those histories and is being
 evaluated on additional targets. Both choices create linear matched-L and RGB
 blend views; D65 remains the default.
+Version 0.1.2 also corrects the installed script's ZIP permissions so a normal
+PixInsight session can read it after a privileged macOS update.
 
 The package targets PixInsight 1.9.5 and is unsigned. See PixInsight's
 [update repository specification](https://pixinsight.com/doc/docs/PIRepositoryReference/PIRepositoryReference.html).
