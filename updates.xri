@@ -2,8 +2,8 @@
 <xri version="1.0">
   <description>Spatially Robust LRGB PixInsight script updates.</description>
   <platform os="all" arch="noarch" version="1.9.5:1.9.5">
-    <package fileName="SpatiallyRobustLRGB-0.1.3.zip" sha1="77f0ad9b6c79e2611a51b281fe95cd2315f648c9" type="script" releaseDate="20261025">
-      <title>Spatially Robust LRGB 0.1.3</title>
+    <package fileName="SpatiallyRobustLRGB-0.1.4.zip" sha1="eb6cc2f21c3269ce3e51ea04751034384a1bc067" type="script" releaseDate="20261025">
+      <title>Spatially Robust LRGB 0.1.4</title>
       <description>Installs the Spatially Robust LRGB script.</description>
     </package>
   </platform>
