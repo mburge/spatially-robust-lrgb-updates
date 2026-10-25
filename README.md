@@ -11,7 +11,7 @@ Repositories**, then **Check for Updates**, apply, and restart:
 https://raw.githubusercontent.com/mburge/spatially-robust-lrgb-updates/main/
 ```
 
-Current version: **0.1.2**. The dialog now offers the original D65 Y reference
+Current version: **0.1.3**. The dialog now offers the original D65 Y reference
 and an experimental filter/QE projection read from the selected views' RGB
 SPCC and L SPFC histories. The latter requires those histories and is being
 evaluated on additional targets. Both choices create linear matched-L and RGB
