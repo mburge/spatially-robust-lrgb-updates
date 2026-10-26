@@ -21,5 +21,16 @@ create linear matched-L and RGB blend views; D65 remains the default.
 Version 0.1.2 also corrects the installed script's ZIP permissions so a normal
 PixInsight session can read it after a privileged macOS update.
 
-The package targets PixInsight 1.9.5 and is unsigned. See PixInsight's
-[update repository specification](https://pixinsight.com/doc/docs/PIRepositoryReference/PIRepositoryReference.html).
+The package targets PixInsight 1.9.5 (any revision/build) and is unsigned.
+**Signature: Unavailable** is therefore expected. PixInsight must permit
+unsigned update repositories in its security preferences. PixInsight bundles
+its repository specification at `doc/docs/PIRepositoryReference/PIRepositoryReference.html`
+relative to the installation directory.
+
+If the repository description appears but **Available packages** is zero,
+check **Help > About PixInsight** for the version, then **Resources > Updates >
+View Installed Updates** for an existing 0.1.4 installation. PixInsight does
+not offer a package twice. Run **Check for Updates** again after changing the
+repository or updating PixInsight. If the version is 1.9.5, 0.1.4 is not
+installed, and unsigned repositories are permitted, send the exact update
+console/log message to the maintainer.
